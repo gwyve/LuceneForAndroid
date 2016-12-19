@@ -1,0 +1,1864 @@
+Buildfile: /home/ve/Desktop/LuceneForAndroid/build.xml
+
+clean:
+   [delete] Deleting directory /home/ve/Desktop/LuceneForAndroid/build
+
+check-lucene-core-uptodate:
+
+compile-lucene-core:
+
+-check-git-state:
+
+-git-cleanroot:
+
+-copy-git-state:
+
+git-autoclean:
+
+ivy-availability-check:
+
+ivy-fail:
+
+ivy-configure:
+[ivy:configure] :: Apache Ivy 2.3.0 - 20130110142753 :: http://ant.apache.org/ivy/ ::
+[ivy:configure] :: loading settings :: file = /home/ve/Desktop/LuceneForAndroid/ivy-settings.xml
+
+resolve:
+
+init:
+
+-clover.disable:
+
+-clover.load:
+
+-clover.classpath:
+
+-clover.setup:
+
+clover:
+
+compile-core:
+    [mkdir] Created dir: /home/ve/Desktop/LuceneForAndroid/build/core/classes/java
+    [javac] Compiling 764 source files to /home/ve/Desktop/LuceneForAndroid/build/core/classes/java
+    [javac] /home/ve/Desktop/LuceneForAndroid/core/src/java/org/apache/lucene/util/AttributeFactory.java:140: warning: [unchecked] unchecked cast
+    [javac]           return (A) constr.invokeExact();
+    [javac]                                        ^
+    [javac]   required: A
+    [javac]   found:    Object
+    [javac]   where A is a type-variable:
+    [javac]     A extends AttributeImpl declared in method <A>getStaticImplementation(AttributeFactory,Class<A>)
+    [javac] /home/ve/Desktop/LuceneForAndroid/core/src/java/org/lukhnos/portmobile/file/attribute/FileTime.java:17: warning: [overrides] Class FileTime overrides equals, but neither it nor any superclass overrides hashCode method
+    [javac] public class FileTime implements Comparable<FileTime> {
+    [javac]        ^
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] 2 warnings
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/core/classes/java/org/apache/lucene/document/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/core/classes/java/org/apache/lucene/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/core/classes/java/org/apache/lucene/util/packed/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/core/classes/java/org/apache/lucene/util/mutable/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/core/classes/java/org/apache/lucene/codecs/compressing/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/core/classes/java/org/apache/lucene/codecs/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/core/classes/java/org/apache/lucene/codecs/perfield/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/core/classes/java/org/apache/lucene/util/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/core/classes/java/org/apache/lucene/analysis/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/core/classes/java/org/apache/lucene/index/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/core/classes/java/org/apache/lucene/store/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/core/classes/java/org/apache/lucene/codecs/blocktree/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/core/classes/java/org/apache/lucene/util/fst/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/core/classes/java/org/apache/lucene/search/spans/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/core/classes/java/org/apache/lucene/analysis/tokenattributes/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/core/classes/java/org/apache/lucene/codecs/lucene54/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/core/classes/java/org/apache/lucene/search/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/core/classes/java/org/apache/lucene/search/similarities/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/core/classes/java/org/apache/lucene/util/automaton/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/core/classes/java/org/apache/lucene/codecs/lucene53/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/core/classes/java/org/apache/lucene/codecs/lucene50/package-info.class
+     [copy] Copying 3 files to /home/ve/Desktop/LuceneForAndroid/build/core/classes/java
+
+jar-core:
+
+-check-git-state:
+
+-git-cleanroot:
+
+-copy-git-state:
+
+git-autoclean:
+
+ivy-availability-check:
+
+ivy-fail:
+
+ivy-configure:
+[ivy:configure] :: loading settings :: file = /home/ve/Desktop/LuceneForAndroid/ivy-settings.xml
+
+resolve:
+
+init:
+
+-clover.disable:
+
+-clover.load:
+
+-clover.classpath:
+
+-clover.setup:
+
+clover:
+
+compile-core:
+
+jar-core:
+      [jar] Building jar: /home/ve/Desktop/LuceneForAndroid/build/core/lucene-core-5.5.0-SNAPSHOT.jar
+
+mobile-build-modules-without-test:
+
+-check-git-state:
+
+-git-cleanroot:
+
+-copy-git-state:
+
+git-autoclean:
+
+ivy-availability-check:
+
+ivy-fail:
+
+ivy-configure:
+[ivy:configure] :: loading settings :: file = /home/ve/Desktop/LuceneForAndroid/ivy-settings.xml
+
+resolve:
+
+common.init:
+
+compile-lucene-core:
+
+init:
+
+-clover.disable:
+
+-clover.load:
+
+-clover.classpath:
+
+-clover.setup:
+
+clover:
+
+compile-core:
+    [mkdir] Created dir: /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java
+    [javac] Compiling 473 source files to /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/hunspell/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/ga/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/ca/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/custom/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/sr/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/collation/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/sv/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/bg/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/payloads/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/ngram/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/core/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/fr/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/tartarus/snowball/ext/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/br/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/miscellaneous/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/sinks/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/cjk/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/synonym/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/wikipedia/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/fa/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/reverse/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/nl/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/ro/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/fi/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/ru/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/no/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/el/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/ckb/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/tartarus/snowball/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/in/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/util/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/it/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/snowball/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/en/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/es/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/shingle/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/eu/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/ar/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/query/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/id/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/compound/hyphenation/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/charfilter/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/pt/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/lv/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/lt/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/hu/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/hy/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/pattern/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/cz/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/th/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/path/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/tr/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/da/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/de/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/hi/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/collation/tokenattributes/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/gl/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/standard/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/commongrams/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java/org/apache/lucene/analysis/compound/package-info.class
+     [copy] Copying 40 files to /home/ve/Desktop/LuceneForAndroid/build/analysis/common/classes/java
+
+jar-core:
+      [jar] Building jar: /home/ve/Desktop/LuceneForAndroid/build/analysis/common/lucene-analyzers-common-5.5.0-SNAPSHOT.jar
+
+default:
+
+-check-git-state:
+
+-git-cleanroot:
+
+-copy-git-state:
+
+git-autoclean:
+
+ivy-availability-check:
+
+ivy-fail:
+
+ivy-configure:
+[ivy:configure] :: loading settings :: file = /home/ve/Desktop/LuceneForAndroid/ivy-settings.xml
+
+resolve:
+
+init:
+
+-clover.disable:
+
+-clover.load:
+
+-clover.classpath:
+
+-clover.setup:
+
+clover:
+
+compile-core:
+
+jar-core:
+      [jar] Building jar: /home/ve/Desktop/LuceneForAndroid/build/core/lucene-core-5.5.0-SNAPSHOT.jar
+
+default:
+
+check-memory-uptodate:
+
+jar-memory:
+
+check-queryparser-uptodate:
+
+jar-queryparser:
+
+check-queries-uptodate:
+
+jar-queries:
+
+-check-git-state:
+
+-git-cleanroot:
+
+-copy-git-state:
+
+git-autoclean:
+
+ivy-availability-check:
+
+ivy-fail:
+
+ivy-configure:
+[ivy:configure] :: loading settings :: file = /home/ve/Desktop/LuceneForAndroid/ivy-settings.xml
+
+resolve:
+
+common.init:
+
+compile-lucene-core:
+
+init:
+
+-clover.disable:
+
+-clover.load:
+
+-clover.classpath:
+
+-clover.setup:
+
+clover:
+
+compile-core:
+    [mkdir] Created dir: /home/ve/Desktop/LuceneForAndroid/build/queries/classes/java
+    [javac] Compiling 84 source files to /home/ve/Desktop/LuceneForAndroid/build/queries/classes/java
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/FunctionQuery.java:60: warning: [rawtypes] found raw type: Map
+    [javac]     protected final Map context;
+    [javac]                     ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/ValueSource.java:43: warning: [rawtypes] found raw type: Map
+    [javac]   public abstract FunctionValues getValues(Map context, LeafReaderContext readerContext) throws IOException;
+    [javac]                                            ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/ValueSource.java:67: warning: [rawtypes] found raw type: Map
+    [javac]   public void createWeight(Map context, IndexSearcher searcher) throws IOException {
+    [javac]                            ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/ValueSource.java:73: warning: [rawtypes] found raw type: Map
+    [javac]   public static Map newContext(IndexSearcher searcher) {
+    [javac]                 ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/ValueSource.java:74: warning: [rawtypes] found raw type: Map
+    [javac]     Map context = new IdentityHashMap();
+    [javac]     ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/ValueSource.java:74: warning: [rawtypes] found raw type: IdentityHashMap
+    [javac]     Map context = new IdentityHashMap();
+    [javac]                       ^
+    [javac]   missing type arguments for generic class IdentityHashMap<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class IdentityHashMap
+    [javac]     V extends Object declared in class IdentityHashMap
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/ValueSource.java:75: warning: [unchecked] unchecked call to put(K,V) as a member of the raw type Map
+    [javac]     context.put("searcher", searcher);
+    [javac]                ^
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/ValueSource.java:104: warning: [rawtypes] found raw type: Map
+    [javac]       Map context = newContext(searcher);
+    [javac]       ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/ValueSource.java:111: warning: [rawtypes] found raw type: Map
+    [javac]     private final Map context;
+    [javac]                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/ValueSource.java:113: warning: [rawtypes] found raw type: Map
+    [javac]     public ValueSourceComparatorSource(Map context) {
+    [javac]                                        ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/ValueSource.java:133: warning: [rawtypes] found raw type: Map
+    [javac]     private final Map fcontext;
+    [javac]                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/ValueSource.java:136: warning: [rawtypes] found raw type: Map
+    [javac]     ValueSourceComparator(Map fcontext, int numHits) {
+    [javac]                           ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/BoostedQuery.java:72: warning: [rawtypes] found raw type: Map
+    [javac]     Map fcontext;
+    [javac]     ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/BytesRefFieldSource.java:44: warning: [rawtypes] found raw type: Map
+    [javac]   public FunctionValues getValues(Map context, LeafReaderContext readerContext) throws IOException {
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/ConstValueSource.java:44: warning: [rawtypes] found raw type: Map
+    [javac]   public FunctionValues getValues(Map context, LeafReaderContext readerContext) throws IOException {
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/MultiFunction.java:115: warning: [rawtypes] found raw type: Map
+    [javac]   public static FunctionValues[] valsArr(List<ValueSource> sources, Map fcontext, LeafReaderContext readerContext) throws IOException {
+    [javac]                                                                     ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/MultiFunction.java:161: warning: [rawtypes] found raw type: Map
+    [javac]   public void createWeight(Map context, IndexSearcher searcher) throws IOException {
+    [javac]                            ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/DefFunction.java:45: warning: [rawtypes] found raw type: Map
+    [javac]   public FunctionValues getValues(Map fcontext, LeafReaderContext readerContext) throws IOException {
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/DualFloatFunction.java:54: warning: [rawtypes] found raw type: Map
+    [javac]   public FunctionValues getValues(Map context, LeafReaderContext readerContext) throws IOException {
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/DualFloatFunction.java:78: warning: [rawtypes] found raw type: Map
+    [javac]   public void createWeight(Map context, IndexSearcher searcher) throws IOException {
+    [javac]                            ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/DocFreqValueSource.java:148: warning: [rawtypes] found raw type: Map
+    [javac]   public FunctionValues getValues(Map context, LeafReaderContext readerContext) throws IOException {
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/DocFreqValueSource.java:155: warning: [rawtypes] found raw type: Map
+    [javac]   public void createWeight(Map context, IndexSearcher searcher) throws IOException {
+    [javac]                            ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/DocFreqValueSource.java:156: warning: [unchecked] unchecked call to put(K,V) as a member of the raw type Map
+    [javac]     context.put("searcher",searcher);
+    [javac]                ^
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/DoubleConstValueSource.java:46: warning: [rawtypes] found raw type: Map
+    [javac]   public FunctionValues getValues(Map context, LeafReaderContext readerContext) throws IOException {
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/DoubleFieldSource.java:54: warning: [rawtypes] found raw type: Map
+    [javac]   public FunctionValues getValues(Map context, LeafReaderContext readerContext) throws IOException {
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/EnumFieldSource.java:98: warning: [rawtypes] found raw type: Map
+    [javac]   public FunctionValues getValues(Map context, LeafReaderContext readerContext) throws IOException {
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/FloatFieldSource.java:54: warning: [rawtypes] found raw type: Map
+    [javac]   public FunctionValues getValues(Map context, LeafReaderContext readerContext) throws IOException {
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/IDFValueSource.java:48: warning: [rawtypes] found raw type: Map
+    [javac]   public FunctionValues getValues(Map context, LeafReaderContext readerContext) throws IOException {
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/IDFValueSource.java:56: warning: auxiliary class ConstDoubleDocValues in /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/DocFreqValueSource.java should not be accessed from outside its own source file
+    [javac]     return new ConstDoubleDocValues(idf, this);
+    [javac]                ^
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/IfFunction.java:46: warning: [rawtypes] found raw type: Map
+    [javac]   public FunctionValues getValues(Map context, LeafReaderContext readerContext) throws IOException {
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/IfFunction.java:145: warning: [rawtypes] found raw type: Map
+    [javac]   public void createWeight(Map context, IndexSearcher searcher) throws IOException {
+    [javac]                            ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/IntFieldSource.java:54: warning: [rawtypes] found raw type: Map
+    [javac]   public FunctionValues getValues(Map context, LeafReaderContext readerContext) throws IOException {
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/JoinDocFreqValueSource.java:56: warning: [rawtypes] found raw type: Map
+    [javac]   public FunctionValues getValues(Map context, LeafReaderContext readerContext) throws IOException
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/LinearFloatFunction.java:53: warning: [rawtypes] found raw type: Map
+    [javac]   public FunctionValues getValues(Map context, LeafReaderContext readerContext) throws IOException {
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/LinearFloatFunction.java:72: warning: [rawtypes] found raw type: Map
+    [javac]   public void createWeight(Map context, IndexSearcher searcher) throws IOException {
+    [javac]                            ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/LiteralValueSource.java:48: warning: [rawtypes] found raw type: Map
+    [javac]   public FunctionValues getValues(Map context, LeafReaderContext readerContext) throws IOException {
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/LongFieldSource.java:66: warning: [rawtypes] found raw type: Map
+    [javac]   public FunctionValues getValues(Map context, LeafReaderContext readerContext) throws IOException {
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/MaxDocValueSource.java:44: warning: [rawtypes] found raw type: Map
+    [javac]   public void createWeight(Map context, IndexSearcher searcher) throws IOException {
+    [javac]                            ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/MaxDocValueSource.java:45: warning: [unchecked] unchecked call to put(K,V) as a member of the raw type Map
+    [javac]     context.put("searcher",searcher);
+    [javac]                ^
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/MaxDocValueSource.java:49: warning: [rawtypes] found raw type: Map
+    [javac]   public FunctionValues getValues(Map context, LeafReaderContext readerContext) throws IOException {
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/MaxDocValueSource.java:51: warning: auxiliary class ConstIntDocValues in /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/DocFreqValueSource.java should not be accessed from outside its own source file
+    [javac]     return new ConstIntDocValues(searcher.getIndexReader().maxDoc(), this);
+    [javac]                ^
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/MultiFloatFunction.java:73: warning: [rawtypes] found raw type: Map
+    [javac]   public FunctionValues getValues(Map context, LeafReaderContext readerContext) throws IOException {
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/MultiFloatFunction.java:95: warning: [rawtypes] found raw type: Map
+    [javac]   public void createWeight(Map context, IndexSearcher searcher) throws IOException {
+    [javac]                            ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/MultiBoolFunction.java:45: warning: [rawtypes] found raw type: Map
+    [javac]   public BoolDocValues getValues(Map context, LeafReaderContext readerContext) throws IOException {
+    [javac]                                  ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/MultiBoolFunction.java:105: warning: [rawtypes] found raw type: Map
+    [javac]   public void createWeight(Map context, IndexSearcher searcher) throws IOException {
+    [javac]                            ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/NormValueSource.java:53: warning: [rawtypes] found raw type: Map
+    [javac]   public void createWeight(Map context, IndexSearcher searcher) throws IOException {
+    [javac]                            ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/NormValueSource.java:54: warning: [unchecked] unchecked call to put(K,V) as a member of the raw type Map
+    [javac]     context.put("searcher",searcher);
+    [javac]                ^
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/NormValueSource.java:58: warning: [rawtypes] found raw type: Map
+    [javac]   public FunctionValues getValues(Map context, LeafReaderContext readerContext) throws IOException {
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/NormValueSource.java:67: warning: auxiliary class ConstDoubleDocValues in /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/DocFreqValueSource.java should not be accessed from outside its own source file
+    [javac]       return new ConstDoubleDocValues(0.0, this);
+    [javac]                  ^
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/NumDocsValueSource.java:44: warning: [rawtypes] found raw type: Map
+    [javac]   public FunctionValues getValues(Map context, LeafReaderContext readerContext) throws IOException {
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/NumDocsValueSource.java:46: warning: auxiliary class ConstIntDocValues in /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/DocFreqValueSource.java should not be accessed from outside its own source file
+    [javac]     return new ConstIntDocValues(ReaderUtil.getTopLevelContext(readerContext).reader().numDocs(), this);
+    [javac]                ^
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/QueryValueSource.java:56: warning: [rawtypes] found raw type: Map
+    [javac]   public FunctionValues getValues(Map fcontext, LeafReaderContext readerContext) throws IOException {
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/QueryValueSource.java:73: warning: [rawtypes] found raw type: Map
+    [javac]   public void createWeight(Map context, IndexSearcher searcher) throws IOException {
+    [javac]                            ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/QueryValueSource.java:75: warning: [unchecked] unchecked call to put(K,V) as a member of the raw type Map
+    [javac]     context.put(this, w);
+    [javac]                ^
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/QueryValueSource.java:84: warning: [rawtypes] found raw type: Map
+    [javac]   final Map fcontext;
+    [javac]         ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/QueryValueSource.java:97: warning: [rawtypes] found raw type: Map
+    [javac]   public QueryDocValues(QueryValueSource vs, LeafReaderContext readerContext, Map fcontext) throws IOException {
+    [javac]                                                                               ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/RangeMapFloatFunction.java:61: warning: [rawtypes] found raw type: Map
+    [javac]   public FunctionValues getValues(Map context, LeafReaderContext readerContext) throws IOException {
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/RangeMapFloatFunction.java:79: warning: [rawtypes] found raw type: Map
+    [javac]   public void createWeight(Map context, IndexSearcher searcher) throws IOException {
+    [javac]                            ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/ReciprocalFloatFunction.java:63: warning: [rawtypes] found raw type: Map
+    [javac]   public FunctionValues getValues(Map context, LeafReaderContext readerContext) throws IOException {
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/ReciprocalFloatFunction.java:84: warning: [rawtypes] found raw type: Map
+    [javac]   public void createWeight(Map context, IndexSearcher searcher) throws IOException {
+    [javac]                            ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/ScaleFloatFunction.java:62: warning: [rawtypes] found raw type: Map
+    [javac]   private ScaleInfo createScaleInfo(Map context, LeafReaderContext readerContext) throws IOException {
+    [javac]                                     ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/ScaleFloatFunction.java:98: warning: [unchecked] unchecked call to put(K,V) as a member of the raw type Map
+    [javac]     context.put(ScaleFloatFunction.this, scaleInfo);
+    [javac]                ^
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/ScaleFloatFunction.java:103: warning: [rawtypes] found raw type: Map
+    [javac]   public FunctionValues getValues(Map context, LeafReaderContext readerContext) throws IOException {
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/ScaleFloatFunction.java:136: warning: [rawtypes] found raw type: Map
+    [javac]   public void createWeight(Map context, IndexSearcher searcher) throws IOException {
+    [javac]                            ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/SimpleBoolFunction.java:47: warning: [rawtypes] found raw type: Map
+    [javac]   public BoolDocValues getValues(Map context, LeafReaderContext readerContext) throws IOException {
+    [javac]                                  ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/SimpleBoolFunction.java:79: warning: [rawtypes] found raw type: Map
+    [javac]   public void createWeight(Map context, IndexSearcher searcher) throws IOException {
+    [javac]                            ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/SingleFunction.java:55: warning: [rawtypes] found raw type: Map
+    [javac]   public void createWeight(Map context, IndexSearcher searcher) throws IOException {
+    [javac]                            ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/SimpleFloatFunction.java:37: warning: [rawtypes] found raw type: Map
+    [javac]   public FunctionValues getValues(Map context, LeafReaderContext readerContext) throws IOException {
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/SortedSetFieldSource.java:58: warning: [rawtypes] found raw type: Map
+    [javac]   public FunctionValues getValues(Map context, LeafReaderContext readerContext) throws IOException {
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/SumTotalTermFreqValueSource.java:54: warning: [rawtypes] found raw type: Map
+    [javac]   public FunctionValues getValues(Map context, LeafReaderContext readerContext) throws IOException {
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/SumTotalTermFreqValueSource.java:59: warning: [rawtypes] found raw type: Map
+    [javac]   public void createWeight(Map context, IndexSearcher searcher) throws IOException {
+    [javac]                            ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/SumTotalTermFreqValueSource.java:73: warning: [unchecked] unchecked call to put(K,V) as a member of the raw type Map
+    [javac]     context.put(this, new LongDocValues(this) {
+    [javac]                ^
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/TermFreqValueSource.java:50: warning: [rawtypes] found raw type: Map
+    [javac]   public FunctionValues getValues(Map context, LeafReaderContext readerContext) throws IOException {
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/TFValueSource.java:52: warning: [rawtypes] found raw type: Map
+    [javac]   public FunctionValues getValues(Map context, LeafReaderContext readerContext) throws IOException {
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/TotalTermFreqValueSource.java:60: warning: [rawtypes] found raw type: Map
+    [javac]   public FunctionValues getValues(Map context, LeafReaderContext readerContext) throws IOException {
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/TotalTermFreqValueSource.java:65: warning: [rawtypes] found raw type: Map
+    [javac]   public void createWeight(Map context, IndexSearcher searcher) throws IOException {
+    [javac]                            ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/TotalTermFreqValueSource.java:77: warning: [unchecked] unchecked call to put(K,V) as a member of the raw type Map
+    [javac]     context.put(this, new LongDocValues(this) {
+    [javac]                ^
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/VectorValueSource.java:55: warning: [rawtypes] found raw type: Map
+    [javac]   public FunctionValues getValues(Map context, LeafReaderContext readerContext) throws IOException {
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/queries/src/java/org/apache/lucene/queries/function/valuesource/VectorValueSource.java:182: warning: [rawtypes] found raw type: Map
+    [javac]   public void createWeight(Map context, IndexSearcher searcher) throws IOException {
+    [javac]                            ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] 79 warnings
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/queries/classes/java/org/apache/lucene/queries/payloads/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/queries/classes/java/org/apache/lucene/queries/function/valuesource/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/queries/classes/java/org/apache/lucene/queries/function/docvalues/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/queries/classes/java/org/apache/lucene/queries/mlt/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/queries/classes/java/org/apache/lucene/queries/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/queries/classes/java/org/apache/lucene/queries/function/package-info.class
+
+jar-core:
+      [jar] Building jar: /home/ve/Desktop/LuceneForAndroid/build/queries/lucene-queries-5.5.0-SNAPSHOT.jar
+
+check-sandbox-uptodate:
+
+jar-sandbox:
+
+check-spatial-uptodate:
+
+jar-spatial:
+
+check-queries-uptodate:
+
+jar-queries:
+
+check-misc-uptodate:
+
+jar-misc:
+
+-check-git-state:
+
+-git-cleanroot:
+
+-copy-git-state:
+
+git-autoclean:
+
+ivy-availability-check:
+
+ivy-fail:
+
+ivy-configure:
+[ivy:configure] :: loading settings :: file = /home/ve/Desktop/LuceneForAndroid/ivy-settings.xml
+
+resolve:
+
+common.init:
+
+compile-lucene-core:
+
+init:
+
+-clover.disable:
+
+-clover.load:
+
+-clover.classpath:
+
+-clover.setup:
+
+clover:
+
+compile-core:
+    [mkdir] Created dir: /home/ve/Desktop/LuceneForAndroid/build/misc/classes/java
+    [javac] Compiling 29 source files to /home/ve/Desktop/LuceneForAndroid/build/misc/classes/java
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/misc/classes/java/org/apache/lucene/misc/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/misc/classes/java/org/apache/lucene/uninverting/package-info.class
+
+jar-core:
+      [jar] Building jar: /home/ve/Desktop/LuceneForAndroid/build/misc/lucene-misc-5.5.0-SNAPSHOT.jar
+
+check-spatial3d-uptodate:
+
+jar-spatial3d:
+
+-check-git-state:
+
+-git-cleanroot:
+
+-copy-git-state:
+
+git-autoclean:
+
+ivy-availability-check:
+
+ivy-fail:
+
+ivy-configure:
+[ivy:configure] :: loading settings :: file = /home/ve/Desktop/LuceneForAndroid/ivy-settings.xml
+
+resolve:
+
+common.init:
+
+compile-lucene-core:
+
+init:
+
+-clover.disable:
+
+-clover.load:
+
+-clover.classpath:
+
+-clover.setup:
+
+clover:
+
+compile-core:
+    [mkdir] Created dir: /home/ve/Desktop/LuceneForAndroid/build/spatial3d/classes/java
+    [javac] Compiling 88 source files to /home/ve/Desktop/LuceneForAndroid/build/spatial3d/classes/java
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/spatial3d/classes/java/org/apache/lucene/geo3d/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/spatial3d/classes/java/org/apache/lucene/bkdtree3d/package-info.class
+     [copy] Copying 1 file to /home/ve/Desktop/LuceneForAndroid/build/spatial3d/classes/java
+
+jar-core:
+      [jar] Building jar: /home/ve/Desktop/LuceneForAndroid/build/spatial3d/lucene-spatial3d-5.5.0-SNAPSHOT.jar
+
+-check-git-state:
+
+-git-cleanroot:
+
+-copy-git-state:
+
+git-autoclean:
+
+ivy-availability-check:
+
+ivy-fail:
+
+ivy-configure:
+[ivy:configure] :: loading settings :: file = /home/ve/Desktop/LuceneForAndroid/ivy-settings.xml
+
+resolve:
+
+common.init:
+
+compile-lucene-core:
+
+init:
+
+-clover.disable:
+
+-clover.load:
+
+-clover.classpath:
+
+-clover.setup:
+
+clover:
+
+common.compile-core:
+    [mkdir] Created dir: /home/ve/Desktop/LuceneForAndroid/build/spatial/classes/java
+    [javac] Compiling 84 source files to /home/ve/Desktop/LuceneForAndroid/build/spatial/classes/java
+    [javac] /home/ve/Desktop/LuceneForAndroid/spatial/src/java/org/apache/lucene/spatial/bbox/BBoxSimilarityValueSource.java:51: warning: [rawtypes] found raw type: Map
+    [javac]   public void createWeight(Map context, IndexSearcher searcher) throws IOException {
+    [javac]                            ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/spatial/src/java/org/apache/lucene/spatial/bbox/BBoxSimilarityValueSource.java:64: warning: [rawtypes] found raw type: Map
+    [javac]   public FunctionValues getValues(Map context, LeafReaderContext readerContext) throws IOException {
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/spatial/src/java/org/apache/lucene/spatial/bbox/BBoxValueSource.java:52: warning: [rawtypes] found raw type: Map
+    [javac]   public FunctionValues getValues(Map context, LeafReaderContext readerContext) throws IOException {
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/spatial/src/java/org/apache/lucene/spatial/serialized/SerializedDVStrategy.java:198: warning: [rawtypes] found raw type: Map
+    [javac]     public FunctionValues getValues(Map context, LeafReaderContext readerContext) throws IOException {
+    [javac]                                     ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/spatial/src/java/org/apache/lucene/spatial/composite/CompositeVerifyQuery.java:94: warning: [rawtypes] found raw type: Map
+    [javac]     final Map valueSourceContext = ValueSource.newContext(searcher);
+    [javac]           ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/spatial/src/java/org/apache/lucene/spatial/composite/IntersectsRPTVerifyQuery.java:87: warning: [rawtypes] found raw type: Map
+    [javac]     final Map valueSourceContext = ValueSource.newContext(searcher);
+    [javac]           ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/spatial/src/java/org/apache/lucene/spatial/util/CachingDoubleValueSource.java:49: warning: [rawtypes] found raw type: Map
+    [javac]   public FunctionValues getValues(Map context, LeafReaderContext readerContext) throws IOException {
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/spatial/src/java/org/apache/lucene/spatial/util/DistanceToShapeValueSource.java:69: warning: [rawtypes] found raw type: Map
+    [javac]   public void createWeight(Map context, IndexSearcher searcher) throws IOException {
+    [javac]                            ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/spatial/src/java/org/apache/lucene/spatial/util/DistanceToShapeValueSource.java:74: warning: [rawtypes] found raw type: Map
+    [javac]   public FunctionValues getValues(Map context, LeafReaderContext readerContext) throws IOException {
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/spatial/src/java/org/apache/lucene/spatial/util/ShapeAreaValueSource.java:62: warning: [rawtypes] found raw type: Map
+    [javac]   public void createWeight(Map context, IndexSearcher searcher) throws IOException {
+    [javac]                            ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/spatial/src/java/org/apache/lucene/spatial/util/ShapeAreaValueSource.java:67: warning: [rawtypes] found raw type: Map
+    [javac]   public FunctionValues getValues(Map context, LeafReaderContext readerContext) throws IOException {
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/spatial/src/java/org/apache/lucene/spatial/util/ShapeFieldCacheDistanceValueSource.java:59: warning: [rawtypes] found raw type: Map
+    [javac]   public FunctionValues getValues(Map context, final LeafReaderContext readerContext) throws IOException {
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/spatial/src/java/org/apache/lucene/spatial/util/ShapePredicateValueSource.java:65: warning: [rawtypes] found raw type: Map
+    [javac]   public void createWeight(Map context, IndexSearcher searcher) throws IOException {
+    [javac]                            ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/spatial/src/java/org/apache/lucene/spatial/util/ShapePredicateValueSource.java:70: warning: [rawtypes] found raw type: Map
+    [javac]   public FunctionValues getValues(Map context, LeafReaderContext readerContext) throws IOException {
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] /home/ve/Desktop/LuceneForAndroid/spatial/src/java/org/apache/lucene/spatial/vector/DistanceValueSource.java:65: warning: [rawtypes] found raw type: Map
+    [javac]   public FunctionValues getValues(Map context, LeafReaderContext readerContext) throws IOException {
+    [javac]                                   ^
+    [javac]   missing type arguments for generic class Map<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] 15 warnings
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/spatial/classes/java/org/apache/lucene/spatial/bbox/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/spatial/classes/java/org/apache/lucene/spatial/geopoint/search/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/spatial/classes/java/org/apache/lucene/spatial/serialized/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/spatial/classes/java/org/apache/lucene/spatial/spatial4j/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/spatial/classes/java/org/apache/lucene/spatial/util/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/spatial/classes/java/org/apache/lucene/spatial/composite/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/spatial/classes/java/org/apache/lucene/spatial/geopoint/document/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/spatial/classes/java/org/apache/lucene/spatial/query/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/spatial/classes/java/org/apache/lucene/spatial/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/spatial/classes/java/org/apache/lucene/spatial/vector/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/spatial/classes/java/org/apache/lucene/spatial/prefix/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/spatial/classes/java/org/apache/lucene/spatial/prefix/tree/package-info.class
+
+compile-core:
+
+jar-core:
+      [jar] Building jar: /home/ve/Desktop/LuceneForAndroid/build/spatial/lucene-spatial-5.5.0-SNAPSHOT.jar
+
+-check-git-state:
+
+-git-cleanroot:
+
+-copy-git-state:
+
+git-autoclean:
+
+ivy-availability-check:
+
+ivy-fail:
+
+ivy-configure:
+[ivy:configure] :: loading settings :: file = /home/ve/Desktop/LuceneForAndroid/ivy-settings.xml
+
+resolve:
+
+common.init:
+
+compile-lucene-core:
+
+init:
+
+-clover.disable:
+
+-clover.load:
+
+-clover.classpath:
+
+-clover.setup:
+
+clover:
+
+common.compile-core:
+    [mkdir] Created dir: /home/ve/Desktop/LuceneForAndroid/build/sandbox/classes/java
+    [javac] Compiling 68 source files to /home/ve/Desktop/LuceneForAndroid/build/sandbox/classes/java
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/sandbox/classes/java/org/apache/lucene/codecs/idversion/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/sandbox/classes/java/org/apache/lucene/payloads/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/sandbox/classes/java/org/apache/lucene/sandbox/queries/regex/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/sandbox/classes/java/org/apache/lucene/sandbox/queries/package-info.class
+     [copy] Copying 2 files to /home/ve/Desktop/LuceneForAndroid/build/sandbox/classes/java
+
+compile-core:
+
+jar-core:
+      [jar] Building jar: /home/ve/Desktop/LuceneForAndroid/build/sandbox/lucene-sandbox-5.5.0-SNAPSHOT.jar
+
+-check-git-state:
+
+-git-cleanroot:
+
+-copy-git-state:
+
+git-autoclean:
+
+ivy-availability-check:
+
+ivy-fail:
+
+ivy-configure:
+[ivy:configure] :: loading settings :: file = /home/ve/Desktop/LuceneForAndroid/ivy-settings.xml
+
+resolve:
+
+common.init:
+
+compile-lucene-core:
+
+init:
+
+-clover.disable:
+
+-clover.load:
+
+-clover.classpath:
+
+-clover.setup:
+
+clover:
+
+common.compile-core:
+    [mkdir] Created dir: /home/ve/Desktop/LuceneForAndroid/build/queryparser/classes/java
+    [javac] Compiling 234 source files to /home/ve/Desktop/LuceneForAndroid/build/queryparser/classes/java
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/queryparser/classes/java/org/apache/lucene/queryparser/flexible/standard/processors/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/queryparser/classes/java/org/apache/lucene/queryparser/flexible/core/messages/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/queryparser/classes/java/org/apache/lucene/queryparser/flexible/core/config/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/queryparser/classes/java/org/apache/lucene/queryparser/xml/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/queryparser/classes/java/org/apache/lucene/queryparser/flexible/core/nodes/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/queryparser/classes/java/org/apache/lucene/queryparser/flexible/standard/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/queryparser/classes/java/org/apache/lucene/queryparser/surround/query/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/queryparser/classes/java/org/apache/lucene/queryparser/complexPhrase/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/queryparser/classes/java/org/apache/lucene/queryparser/flexible/core/parser/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/queryparser/classes/java/org/apache/lucene/queryparser/flexible/core/util/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/queryparser/classes/java/org/apache/lucene/queryparser/flexible/messages/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/queryparser/classes/java/org/apache/lucene/queryparser/analyzing/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/queryparser/classes/java/org/apache/lucene/queryparser/flexible/standard/config/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/queryparser/classes/java/org/apache/lucene/queryparser/flexible/core/builders/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/queryparser/classes/java/org/apache/lucene/queryparser/ext/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/queryparser/classes/java/org/apache/lucene/queryparser/flexible/core/processors/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/queryparser/classes/java/org/apache/lucene/queryparser/xml/builders/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/queryparser/classes/java/org/apache/lucene/queryparser/surround/parser/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/queryparser/classes/java/org/apache/lucene/queryparser/flexible/standard/builders/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/queryparser/classes/java/org/apache/lucene/queryparser/flexible/standard/parser/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/queryparser/classes/java/org/apache/lucene/queryparser/flexible/core/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/queryparser/classes/java/org/apache/lucene/queryparser/flexible/precedence/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/queryparser/classes/java/org/apache/lucene/queryparser/flexible/standard/nodes/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/queryparser/classes/java/org/apache/lucene/queryparser/simple/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/queryparser/classes/java/org/apache/lucene/queryparser/classic/package-info.class
+     [copy] Copying 3 files to /home/ve/Desktop/LuceneForAndroid/build/queryparser/classes/java
+
+compile-core:
+
+jar-core:
+      [jar] Building jar: /home/ve/Desktop/LuceneForAndroid/build/queryparser/lucene-queryparser-5.5.0-SNAPSHOT.jar
+
+-check-git-state:
+
+-git-cleanroot:
+
+-copy-git-state:
+
+git-autoclean:
+
+ivy-availability-check:
+
+ivy-fail:
+
+ivy-configure:
+[ivy:configure] :: loading settings :: file = /home/ve/Desktop/LuceneForAndroid/ivy-settings.xml
+
+resolve:
+
+common.init:
+
+compile-lucene-core:
+
+init:
+
+-clover.disable:
+
+-clover.load:
+
+-clover.classpath:
+
+-clover.setup:
+
+clover:
+
+common.compile-core:
+    [mkdir] Created dir: /home/ve/Desktop/LuceneForAndroid/build/memory/classes/java
+    [javac] Compiling 2 source files to /home/ve/Desktop/LuceneForAndroid/build/memory/classes/java
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/memory/classes/java/org/apache/lucene/index/memory/package-info.class
+
+compile-core:
+
+jar-core:
+      [jar] Building jar: /home/ve/Desktop/LuceneForAndroid/build/memory/lucene-memory-5.5.0-SNAPSHOT.jar
+
+check-queries-uptodate:
+
+jar-queries:
+
+check-join-uptodate:
+
+jar-join:
+
+-check-git-state:
+
+-git-cleanroot:
+
+-copy-git-state:
+
+git-autoclean:
+
+ivy-availability-check:
+
+ivy-fail:
+
+ivy-configure:
+[ivy:configure] :: loading settings :: file = /home/ve/Desktop/LuceneForAndroid/ivy-settings.xml
+
+resolve:
+
+common.init:
+
+compile-lucene-core:
+
+module-build.init:
+
+check-grouping-uptodate:
+
+jar-grouping:
+
+-check-git-state:
+
+-git-cleanroot:
+
+-copy-git-state:
+
+git-autoclean:
+
+ivy-availability-check:
+
+ivy-fail:
+
+ivy-configure:
+[ivy:configure] :: loading settings :: file = /home/ve/Desktop/LuceneForAndroid/ivy-settings.xml
+
+resolve:
+
+common.init:
+
+compile-lucene-core:
+
+module-build.init:
+
+check-queries-uptodate:
+
+jar-queries:
+
+init:
+
+-clover.disable:
+
+-clover.load:
+
+-clover.classpath:
+
+-clover.setup:
+
+clover:
+
+compile-core:
+    [mkdir] Created dir: /home/ve/Desktop/LuceneForAndroid/build/grouping/classes/java
+    [javac] Compiling 27 source files to /home/ve/Desktop/LuceneForAndroid/build/grouping/classes/java
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/grouping/classes/java/org/apache/lucene/search/grouping/term/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/grouping/classes/java/org/apache/lucene/search/grouping/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/grouping/classes/java/org/apache/lucene/search/grouping/function/package-info.class
+
+jar-core:
+      [jar] Building jar: /home/ve/Desktop/LuceneForAndroid/build/grouping/lucene-grouping-5.5.0-SNAPSHOT.jar
+
+init:
+
+-clover.disable:
+
+-clover.load:
+
+-clover.classpath:
+
+-clover.setup:
+
+clover:
+
+compile-core:
+    [mkdir] Created dir: /home/ve/Desktop/LuceneForAndroid/build/join/classes/java
+    [javac] Compiling 27 source files to /home/ve/Desktop/LuceneForAndroid/build/join/classes/java
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/join/classes/java/org/apache/lucene/search/join/package-info.class
+
+jar-core:
+      [jar] Building jar: /home/ve/Desktop/LuceneForAndroid/build/join/lucene-join-5.5.0-SNAPSHOT.jar
+
+check-analyzers-common-uptodate:
+
+jar-analyzers-common:
+
+-check-git-state:
+
+-git-cleanroot:
+
+-copy-git-state:
+
+git-autoclean:
+
+ivy-availability-check:
+
+ivy-fail:
+
+ivy-configure:
+[ivy:configure] :: loading settings :: file = /home/ve/Desktop/LuceneForAndroid/ivy-settings.xml
+
+resolve:
+
+common.init:
+
+compile-lucene-core:
+
+init:
+
+-clover.disable:
+
+-clover.load:
+
+-clover.classpath:
+
+-clover.setup:
+
+clover:
+
+common.compile-core:
+    [mkdir] Created dir: /home/ve/Desktop/LuceneForAndroid/build/highlighter/classes/java
+    [javac] Compiling 57 source files to /home/ve/Desktop/LuceneForAndroid/build/highlighter/classes/java
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/highlighter/classes/java/org/apache/lucene/search/highlight/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/highlighter/classes/java/org/apache/lucene/search/postingshighlight/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/highlighter/classes/java/org/apache/lucene/search/vectorhighlight/package-info.class
+
+compile-core:
+
+jar-core:
+      [jar] Building jar: /home/ve/Desktop/LuceneForAndroid/build/highlighter/lucene-highlighter-5.5.0-SNAPSHOT.jar
+
+default:
+
+-check-git-state:
+
+-git-cleanroot:
+
+-copy-git-state:
+
+git-autoclean:
+
+ivy-availability-check:
+
+ivy-fail:
+
+ivy-configure:
+[ivy:configure] :: loading settings :: file = /home/ve/Desktop/LuceneForAndroid/ivy-settings.xml
+
+resolve:
+
+common.init:
+
+compile-lucene-core:
+
+module-build.init:
+
+check-grouping-uptodate:
+
+jar-grouping:
+
+init:
+
+-clover.disable:
+
+-clover.load:
+
+-clover.classpath:
+
+-clover.setup:
+
+clover:
+
+compile-core:
+
+jar-core:
+      [jar] Building jar: /home/ve/Desktop/LuceneForAndroid/build/join/lucene-join-5.5.0-SNAPSHOT.jar
+
+default:
+
+check-queryparser-uptodate:
+
+jar-queryparser:
+
+-check-git-state:
+
+-git-cleanroot:
+
+-copy-git-state:
+
+git-autoclean:
+
+ivy-availability-check:
+
+ivy-fail:
+
+ivy-configure:
+[ivy:configure] :: loading settings :: file = /home/ve/Desktop/LuceneForAndroid/ivy-settings.xml
+
+resolve:
+
+common.init:
+
+compile-lucene-core:
+
+init:
+
+-clover.disable:
+
+-clover.load:
+
+-clover.classpath:
+
+-clover.setup:
+
+clover:
+
+common.compile-core:
+
+compile-core:
+
+jar-core:
+      [jar] Building jar: /home/ve/Desktop/LuceneForAndroid/build/memory/lucene-memory-5.5.0-SNAPSHOT.jar
+
+default:
+
+-check-git-state:
+
+-git-cleanroot:
+
+-copy-git-state:
+
+git-autoclean:
+
+ivy-availability-check:
+
+ivy-fail:
+
+ivy-configure:
+[ivy:configure] :: loading settings :: file = /home/ve/Desktop/LuceneForAndroid/ivy-settings.xml
+
+resolve:
+
+common.init:
+
+compile-lucene-core:
+
+init:
+
+-clover.disable:
+
+-clover.load:
+
+-clover.classpath:
+
+-clover.setup:
+
+clover:
+
+compile-core:
+
+jar-core:
+      [jar] Building jar: /home/ve/Desktop/LuceneForAndroid/build/misc/lucene-misc-5.5.0-SNAPSHOT.jar
+
+default:
+
+-check-git-state:
+
+-git-cleanroot:
+
+-copy-git-state:
+
+git-autoclean:
+
+ivy-availability-check:
+
+ivy-fail:
+
+ivy-configure:
+[ivy:configure] :: loading settings :: file = /home/ve/Desktop/LuceneForAndroid/ivy-settings.xml
+
+resolve:
+
+common.init:
+
+compile-lucene-core:
+
+init:
+
+-clover.disable:
+
+-clover.load:
+
+-clover.classpath:
+
+-clover.setup:
+
+clover:
+
+compile-core:
+
+jar-core:
+      [jar] Building jar: /home/ve/Desktop/LuceneForAndroid/build/queries/lucene-queries-5.5.0-SNAPSHOT.jar
+
+default:
+
+check-queries-uptodate:
+
+jar-queries:
+
+check-sandbox-uptodate:
+
+jar-sandbox:
+
+-check-git-state:
+
+-git-cleanroot:
+
+-copy-git-state:
+
+git-autoclean:
+
+ivy-availability-check:
+
+ivy-fail:
+
+ivy-configure:
+[ivy:configure] :: loading settings :: file = /home/ve/Desktop/LuceneForAndroid/ivy-settings.xml
+
+resolve:
+
+common.init:
+
+compile-lucene-core:
+
+init:
+
+-clover.disable:
+
+-clover.load:
+
+-clover.classpath:
+
+-clover.setup:
+
+clover:
+
+common.compile-core:
+
+compile-core:
+
+jar-core:
+      [jar] Building jar: /home/ve/Desktop/LuceneForAndroid/build/queryparser/lucene-queryparser-5.5.0-SNAPSHOT.jar
+
+default:
+
+check-spatial-uptodate:
+
+jar-spatial:
+
+-check-git-state:
+
+-git-cleanroot:
+
+-copy-git-state:
+
+git-autoclean:
+
+ivy-availability-check:
+
+ivy-fail:
+
+ivy-configure:
+[ivy:configure] :: loading settings :: file = /home/ve/Desktop/LuceneForAndroid/ivy-settings.xml
+
+resolve:
+
+common.init:
+
+compile-lucene-core:
+
+init:
+
+-clover.disable:
+
+-clover.load:
+
+-clover.classpath:
+
+-clover.setup:
+
+clover:
+
+common.compile-core:
+
+compile-core:
+
+jar-core:
+      [jar] Building jar: /home/ve/Desktop/LuceneForAndroid/build/sandbox/lucene-sandbox-5.5.0-SNAPSHOT.jar
+
+default:
+
+check-expressions-uptodate:
+
+jar-expressions:
+
+check-queries-uptodate:
+
+jar-queries:
+
+-check-git-state:
+
+-git-cleanroot:
+
+-copy-git-state:
+
+git-autoclean:
+
+ivy-availability-check:
+
+ivy-fail:
+
+ivy-configure:
+[ivy:configure] :: loading settings :: file = /home/ve/Desktop/LuceneForAndroid/ivy-settings.xml
+
+resolve:
+
+common.init:
+
+compile-lucene-core:
+
+init:
+
+-clover.disable:
+
+-clover.load:
+
+-clover.classpath:
+
+-clover.setup:
+
+clover:
+
+common.compile-core:
+    [mkdir] Created dir: /home/ve/Desktop/LuceneForAndroid/build/expressions/classes/java
+    [javac] Compiling 21 source files to /home/ve/Desktop/LuceneForAndroid/build/expressions/classes/java
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/expressions/classes/java/org/apache/lucene/expressions/js/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/expressions/classes/java/org/apache/lucene/expressions/package-info.class
+     [copy] Copying 1 file to /home/ve/Desktop/LuceneForAndroid/build/expressions/classes/java
+
+compile-core:
+
+jar-core:
+      [jar] Building jar: /home/ve/Desktop/LuceneForAndroid/build/expressions/lucene-expressions-5.5.0-SNAPSHOT.jar
+
+check-misc-uptodate:
+
+jar-misc:
+
+check-analyzers-common-uptodate:
+
+jar-analyzers-common:
+
+-check-git-state:
+
+-git-cleanroot:
+
+-copy-git-state:
+
+git-autoclean:
+
+ivy-availability-check:
+
+ivy-fail:
+
+ivy-configure:
+[ivy:configure] :: loading settings :: file = /home/ve/Desktop/LuceneForAndroid/ivy-settings.xml
+
+resolve:
+
+common.init:
+
+compile-lucene-core:
+
+init:
+
+-clover.disable:
+
+-clover.load:
+
+-clover.classpath:
+
+-clover.setup:
+
+clover:
+
+common.compile-core:
+    [mkdir] Created dir: /home/ve/Desktop/LuceneForAndroid/build/suggest/classes/java
+    [javac] Compiling 77 source files to /home/ve/Desktop/LuceneForAndroid/build/suggest/classes/java
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/suggest/classes/java/org/apache/lucene/search/suggest/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/suggest/classes/java/org/apache/lucene/search/suggest/document/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/suggest/classes/java/org/apache/lucene/search/spell/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/suggest/classes/java/org/apache/lucene/search/suggest/jaspell/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/suggest/classes/java/org/apache/lucene/search/suggest/tst/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/suggest/classes/java/org/apache/lucene/search/suggest/analyzing/package-info.class
+    [javac] Creating empty /home/ve/Desktop/LuceneForAndroid/build/suggest/classes/java/org/apache/lucene/search/suggest/fst/package-info.class
+     [copy] Copying 2 files to /home/ve/Desktop/LuceneForAndroid/build/suggest/classes/java
+
+compile-core:
+
+jar-core:
+      [jar] Building jar: /home/ve/Desktop/LuceneForAndroid/build/suggest/lucene-suggest-5.5.0-SNAPSHOT.jar
+
+default:
+
+mobile-copy-jar:
+     [copy] Copying 1 file to /home/ve/Desktop/LuceneForAndroid/analysis/build/out
+     [copy] Copying /home/ve/Desktop/LuceneForAndroid/build/analysis/common/lucene-analyzers-common-5.5.0-SNAPSHOT.jar to /home/ve/Desktop/LuceneForAndroid/analysis/build/out/lucene-analyzers-common-5.5.0-SNAPSHOT.jar
+
+mobile-copy-jar:
+     [copy] Copying 1 file to /home/ve/Desktop/LuceneForAndroid/build/out
+     [copy] Copying /home/ve/Desktop/LuceneForAndroid/build/core/lucene-core-5.5.0-SNAPSHOT.jar to /home/ve/Desktop/LuceneForAndroid/build/out/lucene-core-5.5.0-SNAPSHOT.jar
+
+mobile-copy-jar:
+     [copy] Copying 1 file to /home/ve/Desktop/LuceneForAndroid/build/out
+     [copy] Copying /home/ve/Desktop/LuceneForAndroid/build/highlighter/lucene-highlighter-5.5.0-SNAPSHOT.jar to /home/ve/Desktop/LuceneForAndroid/build/out/lucene-highlighter-5.5.0-SNAPSHOT.jar
+
+mobile-copy-jar:
+     [copy] Copying 1 file to /home/ve/Desktop/LuceneForAndroid/build/out
+     [copy] Copying /home/ve/Desktop/LuceneForAndroid/build/join/lucene-join-5.5.0-SNAPSHOT.jar to /home/ve/Desktop/LuceneForAndroid/build/out/lucene-join-5.5.0-SNAPSHOT.jar
+
+mobile-copy-jar:
+     [copy] Copying 1 file to /home/ve/Desktop/LuceneForAndroid/build/out
+     [copy] Copying /home/ve/Desktop/LuceneForAndroid/build/memory/lucene-memory-5.5.0-SNAPSHOT.jar to /home/ve/Desktop/LuceneForAndroid/build/out/lucene-memory-5.5.0-SNAPSHOT.jar
+
+mobile-copy-jar:
+     [copy] Copying 1 file to /home/ve/Desktop/LuceneForAndroid/build/out
+     [copy] Copying /home/ve/Desktop/LuceneForAndroid/build/misc/lucene-misc-5.5.0-SNAPSHOT.jar to /home/ve/Desktop/LuceneForAndroid/build/out/lucene-misc-5.5.0-SNAPSHOT.jar
+
+mobile-copy-jar:
+     [copy] Copying 1 file to /home/ve/Desktop/LuceneForAndroid/build/out
+     [copy] Copying /home/ve/Desktop/LuceneForAndroid/build/queries/lucene-queries-5.5.0-SNAPSHOT.jar to /home/ve/Desktop/LuceneForAndroid/build/out/lucene-queries-5.5.0-SNAPSHOT.jar
+
+mobile-copy-jar:
+     [copy] Copying 1 file to /home/ve/Desktop/LuceneForAndroid/build/out
+     [copy] Copying /home/ve/Desktop/LuceneForAndroid/build/queryparser/lucene-queryparser-5.5.0-SNAPSHOT.jar to /home/ve/Desktop/LuceneForAndroid/build/out/lucene-queryparser-5.5.0-SNAPSHOT.jar
+
+mobile-copy-jar:
+     [copy] Copying 1 file to /home/ve/Desktop/LuceneForAndroid/build/out
+     [copy] Copying /home/ve/Desktop/LuceneForAndroid/build/sandbox/lucene-sandbox-5.5.0-SNAPSHOT.jar to /home/ve/Desktop/LuceneForAndroid/build/out/lucene-sandbox-5.5.0-SNAPSHOT.jar
+
+mobile-copy-jar:
+     [copy] Copying 1 file to /home/ve/Desktop/LuceneForAndroid/build/out
+     [copy] Copying /home/ve/Desktop/LuceneForAndroid/build/suggest/lucene-suggest-5.5.0-SNAPSHOT.jar to /home/ve/Desktop/LuceneForAndroid/build/out/lucene-suggest-5.5.0-SNAPSHOT.jar
+
+BUILD SUCCESSFUL
+Total time: 34 seconds
